@@ -7,4 +7,4 @@ The National Ecological Observation Network has been sampling ticks at sites acr
 
 tidy_ticks cleans the dataset and joins it with the taxonomy of the specific tick family that was found in the location. The dataset it produces gives us all obesrvations per site, per collection date, per taxonomy.
 
-Visits that were sampled but caught nothing are kept as rows with individualCount=0. For larvaes (which are going to be a lot of disturb the count), they are flagged in the dataset incase we want to leave them out.
+**A blank `sampleID` on a visit that happened means the crew dragged and found nothing**.
